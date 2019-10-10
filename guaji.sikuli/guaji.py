@@ -7,22 +7,20 @@ import random
 i = 0;
 while True:
     
-    if exists("1566911317174.png",0):
-        doubleClick("1566911337994.png");
-        time.sleep(20);
-    
-    elif exists( "1566911490504.png"):
-        doubleClick("1566911527418.png");
-        time.sleep(20);
-    elif exists("1566912124291.png",0):
+    if exists("1566912124291.png",0):
         click("1566912173905.png");
         time.sleep(20);
+
+    elif exists("1570671525847.png",0):
+        click("1570671525847.png")
+        time.sleep(5)
     elif exists("1566912201827.png",0):
         click("1570627425420.png");
-        time.sleep(20)
+        time.sleep(5)
     elif exists("1570627544862.png",0):
         click("1570627537523.png")
         time.sleep(20)
+    
     else:
         time.sleep(random.randrange(40,80));
         print "我擦"
